@@ -16,7 +16,7 @@ public class Application {
         ConfigurableApplicationContext run = SpringApplication.run(Application.class, args);
         ServiceConfig serviceConfig = run.getBean(ServiceConfig.class);
         System.out.println(serviceConfig);
-        //V1.1
+        System.out.println("hot-fix version");
     }
 
 }
