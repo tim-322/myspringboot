@@ -16,7 +16,7 @@ public class Application {
         ConfigurableApplicationContext run = SpringApplication.run(Application.class, args);
         ServiceConfig serviceConfig = run.getBean(ServiceConfig.class);
         System.out.println(serviceConfig);
-        System.out.println("master version");
+        System.out.println("master version2");
     }
 
 }
