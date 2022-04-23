@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      username: root
+      password: 123456
+      url: jdbc:mysql:///ssm
+  devtools:
+    restart:
+      # 是否开启热部署
+      enabled: true
+      #设置哪些文件夹或者文件不开启热部署
+      #exclude: static/**,config/**,
+
+mybatis-plus:
+  global-config:
+    db-config:
+      table-prefix: tbl_
+
